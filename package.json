@@ -1,0 +1,9 @@
+{
+  "name": "diabetesia",
+  "version": "1.0.0",
+  "description": "DiabetesIA — Educação em Saúde com IA",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev"
+  }
+}
