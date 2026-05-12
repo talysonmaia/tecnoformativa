@@ -41,7 +41,7 @@ Responda sempre em português do Brasil.`;
     parts: [{ text: m.content }]
   }));
 
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${apiKey}`;
 
   try {
     const response = await fetch(url, {
